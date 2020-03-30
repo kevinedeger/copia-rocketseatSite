@@ -22,15 +22,17 @@ h2 {
   margin-inline-start: 0;
   margin-inline-end: 0;
   font-weight: bold;
+  margin: 0;
 }
 
 h3 {
   display: block;
-  margin-block-start: -1em;
+  margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   font-weight: bold;
+  margin: 0;
 }
 
 p {
@@ -101,9 +103,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
+  padding-bottom: 3px;
   color: #FFF;
   border-bottom: 2px solid #FFF;
 }
+
 
 .blog-button:hover {
   color: #FFF;
@@ -228,10 +232,17 @@ nav ul li a:hover {
 
 .starter img {
   margin-right: 30px;
+  display: flex;
+  align-items: center;
 }
 
 .bootcamp img {
   margin-right: 30px;
+}
+
+.starter h2, .bootcamp h2 {
+  display: flex;
+  align-items: center;
 }
 
 .comunity {
@@ -439,4 +450,8 @@ input {
 .personal-footer ul li a {
   color: #666666;
   text-decoration: none;
+}
+
+.personal-footer ul li a:hover {
+  text-decoration: underline;
 }
