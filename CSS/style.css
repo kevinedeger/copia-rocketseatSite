@@ -15,6 +15,15 @@ header {
   transition: all 0.2s ease 0s;
 }
 
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
 h2 {
   display: block;
   margin-block-start: 0.83em;
@@ -54,6 +63,8 @@ b {
   margin-inline-end: 0px;
   padding-inline-start: 40px;
 } */
+
+                        /* Início do CSS da Página Inicial */
 
 /* Menu de Navegação */
 
@@ -454,4 +465,248 @@ input {
 
 .personal-footer ul li a:hover {
   text-decoration: underline;
+}
+
+                      /* Fim do CSS da Página Inicial */
+
+.header-body {
+  max-width: 1070px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header-body h1 {
+  color: #4b4b4b;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.header-body  h1 strong {
+  color: #7159c1;
+}
+
+.header-body p {
+  width: 100%;
+  color: #9A8EBF;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.header-body p strong {
+  font-weight: bold;
+}
+
+.steps {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  margin: 100px 0 50px;
+}
+
+.steps span {
+  position: relative;
+  text-transform: uppercase;
+  color: #7159C1;
+  background-color: #FFF;
+  z-index: 2;
+  padding: 0 25px;
+}
+
+.steps::before {
+  content: attr(hr);
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  width: 100%;
+  height: 2px;
+  background-color: #F1EFFF;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.block-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.code-language-js {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.code-language-js p {
+  color: #4b4b4b;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.code-language-js img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 30px 0 25px;
+}
+
+.code-language-js h2 {
+  color: #221941;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.code-language-js strong {
+  color: #9A8EBF;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.code-language-js a {
+  display: inline-block;
+  margin-top: 30px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  padding: 0px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+}
+
+.code-language-js a:hover {
+  background-color: #7F6AC8;
+}
+
+.code-language-js::after {
+  content: attr(color);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: calc(50% + 38px);
+  background-color: #F1EFFF;
+  z-index: -1;
+}
+
+.arrow {
+  margin: 0 80px;
+}
+
+.steps {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 1;
+  margin: 100px 0 50px;
+}
+
+.dominate {
+  color: #4b4b4b;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.second-step {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.second-step-2 {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.second-step-2 h2 {
+  color: #4b4b4b;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.second-step-2 p {
+  color: #9A8EBF;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 32px;
+  padding: 0 40px;
+  z-index: 1;
+}
+
+.second-step-2 img:not(:first-child) {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 30px 0 25px;
+  z-index: 1;
+}
+
+.second-step-2 h3 {
+  color: #221941;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.second-step-2 strong {
+  color: #9A8EBF;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+.second-step-2 a {
+  display: inline-block;
+  margin-top: 30px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(113, 89, 193);
+  padding: 0px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 150ms linear 0s;
+}
+
+.second-step-2 a:hover {
+  background-color: #7F6AC8;
+}
+
+.second-step-2::after {
+  content: attr(color);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  height: calc(50% - 32px);
+  background-color: #F1EFFF;
+  z-index: -1;
 }
