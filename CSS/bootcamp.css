@@ -1,0 +1,388 @@
+/* CSS da Página do BootCamp GoStack */
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.23em;
+  margin-block-end: 0.10em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: bold;
+} 
+
+.container-gostack {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  color: #FFF;
+  font-family: 'Roboto', "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 1;
+  background-image: url(/images/mountains.svg);
+  background-repeat: no-repeat;
+  background-color: rgb(11, 10, 13);
+  background-size: 100%;
+  background-position: center bottom;
+}
+
+.content-gostack {
+  position: relative;
+  width: 100%;
+  max-width: 1040px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0px auto;
+  overflow: hidden;
+  padding: 60px 20px 20px;
+}
+
+.content-gostack header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 560px;
+  margin: 0;
+}
+
+.image-bootcamp {
+  height: 150px;
+  width: auto;
+}
+
+.image2-bootcamp {
+  height: 44px;
+  width: auto;
+}
+
+.content1-gostack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+.content1-gostack p {
+  text-align: center;
+  font-size: 40px;
+  line-height: 55px;
+  color: #FFF;
+  font-weight: 600;
+  margin: 50px 0;
+}
+
+.content1-gostack p strong {
+  font-weight: 600;
+  color: #00E868;
+}
+
+.form-gostack {
+  display: flex;
+  flex-direction: column;
+  width: 575px;
+}
+
+.form-gostack-CTA {
+  display: block;
+  font-size: 20px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-gostack-CTA span {
+  color: #00E868;
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+.form-email {
+  flex-grow: 1;
+  line-height: 50px;
+  font-size: 16px;
+  color: ##9A8EBF;
+  padding: 0 20px;
+  border-radius: 5px;
+  background: ##F1EFFF;
+  border-width: 1px solid ##E8E4F6;
+  border-image: initial;
+}
+
+form button {
+  line-height: 50px;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  padding: 0 20px;
+  border-radius: 5px;
+  background: #00E868;
+  border: 1px solid #00E868;
+  border-image: initial;
+  transition: all 150ms linear 0s;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #22BE6F;
+}
+
+.goStack-testmonials {
+  margin-top: 200px;
+}
+
+.content-goStack-testmonials {
+  position: relative;
+  width: 100%;
+  max-width: 1040px;
+  z-index: 2;
+  padding: 0 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.testmonials-goStack {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+.testmonials-goStack strong {
+  color: #00E868;
+}
+
+/* .goStack-testmonials ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  list-style: none;
+}
+
+.goStack-testmonials ul li {
+  display: flex;
+  align-items: center;
+}
+
+.goStack-testmonials ul li div:first-child {
+  width: 400px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.list-goStack {
+  position: relative;
+  width: auto;
+  height: 0;
+  padding: 0 0 56.25%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.list-goStack iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* 
+.goStack-testmonials ul li div:last-child {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+} */
+
+/* .goStack-testmonials ul li div:last-child h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-lef;
+}
+
+.goStack-testmonials ul li div:last-child p {
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #AAA;
+} */ 
+
+.box-pilot {
+  position: relative;
+  width: 100%;
+  max-width: 1040px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 200px auto 0;
+  overflow: initial;
+}
+
+.attr-pilot {
+  max-width: 490px;
+}
+
+.pilot-title {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.pilot-title strong {
+  color: #00E868;
+}
+
+.pilot-text {
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #AAA;
+}
+
+.box-pilot ul {
+  margin-top: 30px;
+}
+
+.box-pilot ul li {
+  padding-left: 45px;
+  list-style: none;
+  background: url(/Images/rocket.svg) left top 8px no-repeat;
+  font-size: 17px;
+  line-height: 32px;
+  font-weight: 500;
+  color: #AAA;
+}
+
+.itens-2 {
+  margin-top: 25px;
+}
+
+.node {
+  color: #75B242;
+}
+
+.reactjs {
+  color: #2CC7E3;
+}
+
+.react {
+  color: #6978FF;
+}
+
+.box-pilot ul li strong {
+  color: #00E868;
+}
+
+.social-icons-df {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 70px;
+  grid-row-gap: 20px;
+}
+
+.social-icons-df a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 200ms ease-in-out 0s;
+}
+
+.social-icons-df a span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  background-color: #000;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #FFF;
+  border-image: initial;
+  transition: all 200ms ease-in-out 0s ;
+}
+
+.social-icons-df span img {
+  width: 22px;
+  height: auto;
+}
+
+.social-icons-df a b {
+  color: #AAA;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.social-icons-df a span:hover {
+  background-color: #111;
+}
+
+.social-icons-df a:hover {
+  text-decoration: underline;
+  color: #AAA;
+}
+
+.photo-df {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.photo-df img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.photo-df footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: absolute;
+  bottom: -30px;
+  left: 30px;
+  width: calc(100% - 60px);
+  background-color: #19181F;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.photo-df footer span {
+  font-size: 16px;
+  color: #A9A9A9;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.container-faq {
+  width: 100%;
+  margin: 200px auto 0;
+}
+
+.box-faq {
+  max-width: 1040px;
+}
+
+.box-faq h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
